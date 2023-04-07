@@ -11,7 +11,7 @@ const Robot = () => {
   const [output, setOutput] = useState(null);
     // Setting bounds of grid
   const isValidPlacement = (x, y) => {
-    return x >= 0 && x <= 5 && y >= 0 && y <= 5;
+    return x >= 0 && x <= 4 && y >= 0 && y <= 4;
   };
     // Place on grid and facing
   const place = (x, y, facing) => {
